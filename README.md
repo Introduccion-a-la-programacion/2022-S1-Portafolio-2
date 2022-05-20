@@ -23,15 +23,15 @@ Dado una matriz **cuadrada**, devolver el vector de la diagonal forma, la matriz
 >>>diagonalInversa([[50, 25, 89, 10], [2, 8, 9, 4], [57, 32, 71, 11]])
 'Error: La matriz debe ser de tamaño de columnas impar'
 ```
-## formarMatrizTriangulaSuperior(tamano)
+## formarMatrizTriangularSuperior(tamano)
 - Dado un parámetro llamado **tamano**, este determinará las dimensiones de una matriz cuadrada que este sea una triangular superior. 
 - Una matriz triangular superior, es aquella que apartir de su diagonal estará compuesta por el valor de 1, y debajo de la diagonal estará lleno de ceros
 
 ```python
->>>formarMatrizTriangulaSuperior(3)
+>>>formarMatrizTriangularSuperior(3)
 [[1, 1, 1], [0, 1, 1], [0, 0, 1]]
 
->>>formarMatrizTriangulaSuperior(5)
+>>>formarMatrizTriangularSuperior(5)
 [[1, 1, 1, 1, 1], [0, 1, 1, 1, 1], [0, 0, 1, 1, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
 
 ```
