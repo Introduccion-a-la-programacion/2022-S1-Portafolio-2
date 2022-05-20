@@ -19,11 +19,11 @@ def test_diagonalInversa_2():
     
 #########################################################################    
     
-def test_formarMatrizTriangulaSuperior_1():
-    assert p.formarMatrizTriangulaSuperior(3) ==  [[1, 1, 1], [0, 1, 1], [0, 0, 1]]
+def test_formarMatrizTriangularSuperior_1():
+    assert p.formarMatrizTriangularSuperior(3) ==  [[1, 1, 1], [0, 1, 1], [0, 0, 1]]
 
-def test_formarMatrizTriangulaSuperior_2():
-    assert p.formarMatrizTriangulaSuperior(5) == [[1, 1, 1, 1, 1], [0, 1, 1, 1, 1], [0, 0, 1, 1, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]    
+def test_formarMatrizTriangularSuperior_2():
+    assert p.formarMatrizTriangularSuperior(5) == [[1, 1, 1, 1, 1], [0, 1, 1, 1, 1], [0, 0, 1, 1, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]    
     
 #########################################################################    
 
